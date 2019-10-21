@@ -97,6 +97,54 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* Begin Nav Styles*/
+header{
+  width: 100vw;
+  min-height:80px;
+  background-color: #0C71AA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar{
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+
+nav{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.navbar a{
+  color: #FFFFFF;
+  font-family: 'Playfair Display', serif;
+  margin: 6px;
+  text-decoration: none;
+}
+/*End Nav Styles*/
+
+/* Begin Hero Section*/
+
+.Hero{
+  height:100vh;
+  display: flex;
+  background-image:
+}
+
+
+
+/* End Hero Section*/
+
 
 /* ==========================================================================
    Helper classes
@@ -263,4 +311,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
