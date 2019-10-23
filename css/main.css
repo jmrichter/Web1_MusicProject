@@ -97,6 +97,12 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+Body{
+  font-family: 'Playfair Display', serif;
+}
+
+
+
 /* Begin Nav Styles*/
 header{
   width: 100vw;
@@ -127,24 +133,90 @@ nav{
 
 .navbar a{
   color: #FFFFFF;
-  font-family: 'Playfair Display', serif;
   margin: 6px;
+  text-align: center;
   text-decoration: none;
+  margin: 0px 30px 0px 30px;
+}
+
+.Herotext{
+font-size: 64px;
+
+
 }
 /*End Nav Styles*/
 
 /* Begin Hero Section*/
 
+element.style{
+
+}
+
 .Hero{
   height:100vh;
   display: flex;
-  background-image:
+  background-image: url(../img/desktop_header.jpg);
+  background-position: center;
+  background-size: cover;
 }
-
-
-
 /* End Hero Section*/
 
+/* Begin About Section*/
+.About{
+  background-color: #70B6DE;
+  padding: 10px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin: none;
+  border-radius: 2em;
+}
+/* End About Section*/
+
+/* Begin Tour Dates Section*/
+  .TourDates{
+    background-color: #0C71AA;
+    padding: 10px;
+    width: 35%;
+    border-radius: 2em;
+  }
+
+  .sectionbox_dates{
+    justify-content: right;
+    text-align: left;
+    align-items: left;
+  }
+
+  .sectionbox_location{
+    justify-content: left;
+    text-align: left;
+    align-items: left;
+  }
+
+  .check_back{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+
+/* End Tour Dates Section*/
+
+/* Begin Fan Talk Section*/
+  .FanTalk{
+    background-color: #70B6DE
+    padding: 10px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: none;
+
+  }
+  /* End Fan Talk Section*/
 
 /* ==========================================================================
    Helper classes
