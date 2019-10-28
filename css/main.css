@@ -179,20 +179,24 @@ element.style{
   .TourDates{
     background-color: #0C71AA;
     padding: 10px;
-    width: 35%;
+    width: 95%;
     border-radius: 2em;
+    background-image: url(../img/Testimonials.png);
+    position: relative;
   }
 
-  .sectionbox_dates{
+  .sectionbox_tourdates{
     justify-content: right;
     text-align: left;
     align-items: left;
+    padding: 10px;
   }
 
   .sectionbox_location{
     justify-content: left;
     text-align: left;
     align-items: left;
+    padding: 10px;
   }
 
   .check_back{
@@ -201,23 +205,91 @@ element.style{
     align-items: center;
   }
 
+  .container {
+    position: relative;
+  }
+  .text-block {
+    width: 35%;
+    background-color: #0C71AA;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
 
 /* End Tour Dates Section*/
 
 /* Begin Fan Talk Section*/
   .FanTalk{
-    background-color: #70B6DE
+    background-color: #70B6DE;
     padding: 10px;
-    width: 95%;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: left;
     margin: none;
-
+    border-radius: 2em;
   }
+
+#Kathleen{
+width: 25%;
+display: flex;
+flex-direction: row;
+justify-content: left;
+align-items: left;
+text-align: left;
+margin: 10px;
+position: relative;
+left: 0px;
+}
+
+#Ben{
+width: 25%;
+display: flex;
+flex-direction: row;
+justify-content: left;
+align-items: left;
+text-align: left;
+margin: 10px;
+position: relative;
+left: 5px;
+}
+
+#Nicole{
+width: 25%;
+display: flex;
+flex-direction: row;
+justify-content: left;
+align-items: left;
+text-align: left;
+margin: 10px;
+position: relative;
+left: 5px;
+}
+
+
+
   /* End Fan Talk Section*/
 
+  /* Begin Footer Section*/
+    .Footer{
+      background-color: #0C71AA;
+      padding: 10px;
+      width: 90%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: left;
+      margin: none;
+    }
+
+
+  /* End Footer Section*/
 /* ==========================================================================
    Helper classes
    ========================================================================== */
