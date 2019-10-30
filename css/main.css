@@ -153,11 +153,12 @@ element.style{
 }
 
 .Hero{
-  height:100vh;
+  height:75vh;
   display: flex;
-  background-image: url(../img/desktop_header.jpg);
+  background-image: url(../img/vance-joy.jpg);
   background-position: center;
   background-size: cover;
+  width: 100%;
 }
 /* End Hero Section*/
 
@@ -165,8 +166,9 @@ element.style{
 .About{
   background-color: #70B6DE;
   padding: 10px;
-  width: 90%;
+  width: 100%;
   display: flex;
+  color: white;
   justify-content: center;
   align-items: center;
   text-align: left;
@@ -179,8 +181,8 @@ element.style{
   .TourDates{
     background-color: #0C71AA;
     padding: 10px;
-    width: 95%;
-    border-radius: 2em;
+    color: white;
+    width: 100%;
     background-image: url(../img/Testimonials.png);
     position: relative;
   }
@@ -226,26 +228,71 @@ element.style{
 /* Begin Fan Talk Section*/
   .FanTalk{
     background-color: #70B6DE;
-    padding: 10px;
-    width: 90%;
+    padding: 50px;
+    width: 100%;
     display: flex;
+    color: white;
     justify-content: center;
     align-items: center;
     text-align: left;
     margin: none;
     border-radius: 2em;
+    flex-direction: column;
   }
+
+  .row_of_fans{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+
+.alignfans{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+}
+
+.imagebox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: column;
+  width: 30%;
+}
+
+.imagebox h4{
+  margin: 0 auto;
+}
+
+.fan{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin: 0px 2px 0px 2px;
+  width: 70%;
+}
+
+
 
 #Kathleen{
 width: 25%;
-display: flex;
+display: block;
 flex-direction: row;
 justify-content: left;
 align-items: left;
 text-align: left;
+vertical-align: middle;
 margin: 10px;
 position: relative;
-left: 0px;
+}
+
+.imagebox_2{
+  text-align:right;
+  padding: 10px;
 }
 
 #Ben{
@@ -257,7 +304,11 @@ align-items: left;
 text-align: left;
 margin: 10px;
 position: relative;
-left: 5px;
+}
+
+.imagebox_3{
+  text-align: right;
+  padding: 10px;
 }
 
 #Nicole{
@@ -269,7 +320,6 @@ align-items: left;
 text-align: left;
 margin: 10px;
 position: relative;
-left: 5px;
 }
 
 
