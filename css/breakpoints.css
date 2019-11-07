@@ -1,0 +1,46 @@
+/* On screens that are 1000px wide or less */
+@media screen and (max-width: 1000px) {
+  nav {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar a {
+    color: #FFFFFF;
+    margin: 6px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px 30px 0px 30px;
+  }
+
+  .Herotext {
+    font-size: 20px;
+  }
+}
+
+/* On screens that are 900px wide or less */
+@media screen and (max-width: 900px) {
+
+}
+
+/* On screens that are 768px wide or less */
+@media screen and (max-width: 768px) {
+
+}
+
+/* On screens that are 550px wide or less */
+@media screen and (max-width: 550px) {
+
+}
+
+/* On screens that are 450px wide or less */
+@media screen and (max-width: 450px) {
+
+}
+
+/* On screens that are 300px wide or less */
+@media screen and (max-width: 300px) {
+
+}

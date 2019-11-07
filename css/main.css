@@ -244,7 +244,7 @@
 
   .FanTalk {
     background-color: #70B6DE;
-    padding: 50px;
+    padding: 40px;
     display: flex;
     color: white;
     justify-content: center;
@@ -519,4 +519,115 @@ footer{
     h3 {
       page-break-after: avoid;
     }
+  }
+
+
+  /* On screens that are 1060px wide or less */
+  @media screen and (max-width: 1060px) {
+
+    .Herotext {
+      font-size: 36px;
+    }
+
+  .fan {
+    margin: 0px 10px 0px 10px;
+    width: 70%;
+  }
+    }
+  /* On screens that are 900px wide or less */
+  @media screen and (max-width: 900px) {
+    header {
+      font-size: 24px;
+    }
+    .navbar a {
+      margin: 0px 20px 0px 20px;
+    }
+    .Herotext {
+      font-size: 36px;
+    }
+    .fan {
+      margin: 0px 25px 0px 25px;
+      width: 70%;
+    }
+
+    .row_of_fans {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+    .alignfans{
+      width: 60%;
+      margin: 5%;
+    }
+  }
+  /* On screens that are 800px wide or less */
+  @media screen and (max-width: 800px) {
+    .text-block {
+      width: 45%;
+      }
+    }
+
+  /* On screens that are 768px wide or less */
+  @media screen and (max-width: 768px) {
+    header {
+      font-size: 20px;
+    }
+    .navbar a {
+      margin: 0px 15px 0px 15px;
+    }
+    .Herotext {
+      font-size: 30px;
+    }
+    .About {
+      font-size: 18px;
+    }
+    .TourDates {
+      font-size: 18px;
+    }
+    .FanTalk {
+      font-size: 18px;
+    }
+    .alignfans{
+      width: 50%;
+      margin: 2%;
+    }
+}
+
+/* On screens that are 620px wide or less */
+@media screen and (max-width: 620px) {
+  header {
+    font-size: 18px;
+  }
+  .navbar a {
+    margin: 0px 10px 0px 10px;
+  }
+  .Herotext {
+    font-size: 30px;
+  }
+  .alignfans{
+    width: 70%;
+    margin: 5%;
+  }
+}
+
+/* On screens that are 600px wide or less */
+@media screen and (max-width: 600px) {
+  .text-block {
+    width: 55%;
+}
+
+}
+  /* On screens that are 550px wide or less */
+  @media screen and (max-width: 550px) {
+
+  }
+
+  /* On screens that are 450px wide or less */
+  @media screen and (max-width: 450px) {
+
+  }
+
+  /* On screens that are 300px wide or less */
+  @media screen and (max-width: 300px) {
+
   }
