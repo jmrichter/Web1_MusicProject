@@ -99,7 +99,7 @@
      Author's custom styles
      ========================================================================== */
 
-/* added a slight blue background that would show up between the rounded corners. you can take this out if desired. */
+
   body {
     font-family: 'Playfair Display', serif;
     overflow-x: hidden;
@@ -148,6 +148,7 @@
   /*End Nav Styles*/
 
   /* Begin Hero Section*/
+
 
   .Hero {
     height: 75vh;
@@ -244,6 +245,7 @@
     align-items: center;
     flex-direction: column;
   }
+
 
   /* End Tour Dates Section*/
 
@@ -451,6 +453,7 @@ footer{
      These examples override the primary ('mobile first') styles.
      Modify as content requires.
      ========================================================================== */
+
 
      /* On screens that are 1000px wide or less */
      @media screen and (max-width: 1000px) {
