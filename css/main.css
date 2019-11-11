@@ -17,7 +17,7 @@
     font-size: 1em;
     line-height: 1.4;
   }
-  
+
   /*
    * Remove text-shadow in selection highlight:
    * https://twitter.com/miketaylr/status/12228805301
@@ -27,21 +27,21 @@
    *
    * Customize the background color to match your design.
    */
-  
+
   ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
   }
-  
+
   ::selection {
     background: #b3d4fc;
     text-shadow: none;
   }
-  
+
   /*
    * A better looking default horizontal rule
    */
-  
+
   hr {
     display: block;
     height: 1px;
@@ -50,13 +50,13 @@
     margin: 1em 0;
     padding: 0;
   }
-  
+
   /*
    * Remove the gap between audio, canvas, iframes,
    * images, videos and the bottom of their containers:
    * https://github.com/h5bp/html5-boilerplate/issues/440
    */
-  
+
   audio,
   canvas,
   iframe,
@@ -65,47 +65,49 @@
   video {
     vertical-align: middle;
   }
-  
+
   /*
    * Remove default fieldset styles.
    */
-  
+
   fieldset {
     border: 0;
     margin: 0;
     padding: 0;
   }
-  
+
   /*
    * Allow only vertical resizing of textareas.
    */
-  
+
   textarea {
     resize: vertical;
   }
-  
+
   /* ==========================================================================
      Browser Upgrade Prompt
      ========================================================================== */
-  
+
   .browserupgrade {
     margin: 0.2em 0;
     background: #ccc;
     color: #000;
     padding: 0.2em 0;
   }
-  
+
   /* ==========================================================================
      Author's custom styles
      ========================================================================== */
-  
-  Body {
+
+/* added a slight blue background that would show up between the rounded corners. you can take this out if desired. */
+  body {
     font-family: 'Playfair Display', serif;
     overflow-x: hidden;
+    background-color: #B0E5FF;
   }
-  
+
   /* Begin Nav Styles*/
-  
+
   header {
     width: 100vw;
     min-height: 80px;
@@ -113,8 +115,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 24px;
   }
-  
+
   .navbar {
     width: 95%;
     display: flex;
@@ -122,14 +125,14 @@
     align-items: center;
     margin: 0 auto;
   }
-  
+
   nav {
     width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  
+
   .navbar a {
     color: #FFFFFF;
     margin: 6px;
@@ -137,17 +140,15 @@
     text-decoration: none;
     margin: 0px 30px 0px 30px;
   }
-  
+
   .Herotext {
     font-size: 64px;
   }
-  
+
   /*End Nav Styles*/
-  
+
   /* Begin Hero Section*/
-  
-  element.style {}
-  
+
   .Hero {
     height: 75vh;
     display: flex;
@@ -156,11 +157,11 @@
     background-size: cover;
     width: 100%;
   }
-  
+
   /* End Hero Section*/
-  
+
   /* Begin About Section*/
-  
+
   .About {
     background-color: #70B6DE;
     padding: 10px;
@@ -172,15 +173,20 @@
     margin: 0 auto;
     border-radius: 2em;
   }
-  
+
+
   .content {
     width: 90%;
   }
-  
+
+  .leftnudge {
+    margin-left: 15px;
+  }
+
   /* End About Section*/
-  
+
   /* Begin Tour Dates Section*/
-  
+
   .TourDates {
     background-color: #0C71AA;
     padding: 10px;
@@ -191,31 +197,41 @@
     background-size: cover;
     position: relative;
   }
-  
+
   .sectionbox_tourdates {
     justify-content: right;
     text-align: left;
     align-items: left;
     padding: 10px;
+    margin: 5px;
   }
-  
+
   .sectionbox_location {
     justify-content: left;
     text-align: left;
     align-items: left;
     padding: 10px;
+    margin: 5px;
   }
-  
+
+  .centerme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: row;
+  }
+
   .check_back {
     justify-content: center;
     text-align: center;
     align-items: center;
   }
-  
+
   .container {
     position: relative;
   }
-  
+
   .text-block {
     width: 35%;
     background-color: #0C71AA;
@@ -226,15 +242,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
   }
-  
+
   /* End Tour Dates Section*/
-  
+
   /* Begin Fan Talk Section*/
-  
+
   .FanTalk {
     background-color: #70B6DE;
-    padding: 50px;
+    padding: 40px;
     display: flex;
     color: white;
     justify-content: center;
@@ -244,21 +261,24 @@
     border-radius: 2em;
     flex-direction: column;
   }
-  
+
+
+
   .row_of_fans {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
   }
-  
+
   .alignfans {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     flex-direction: row;
     width: 100%;
   }
-  
+
   .imagebox {
     display: flex;
     justify-content: center;
@@ -267,11 +287,11 @@
     flex-direction: column;
     width: 30%;
   }
-  
+
   .imagebox h4 {
     margin: 0 auto;
   }
-  
+
   .fan {
     display: flex;
     justify-content: center;
@@ -280,7 +300,7 @@
     margin: 0px 2px 0px 2px;
     width: 70%;
   }
-  
+
   #Kathleen {
     width: 25%;
     display: block;
@@ -292,12 +312,12 @@
     margin: 10px;
     position: relative;
   }
-  
+
   .imagebox_2 {
     text-align: right;
     padding: 10px;
   }
-  
+
   #Ben {
     width: 25%;
     display: flex;
@@ -308,12 +328,12 @@
     margin: 10px;
     position: relative;
   }
-  
+
   .imagebox_3 {
     text-align: right;
     padding: 10px;
   }
-  
+
   #Nicole {
     width: 25%;
     display: flex;
@@ -324,36 +344,37 @@
     margin: 10px;
     position: relative;
   }
-  
+
   /* End Fan Talk Section*/
-  
+
   /* Begin Footer Section*/
-  
-  .Footer {
-    background-color: #0C71AA;
-    padding: 10px;
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-    margin: none;
-  }
-  
+
+footer{
+  background-color: #0C71AA;
+  padding: 10px;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin: 0 auto;
+  border-radius: 2em;
+}
+
   /* End Footer Section*/
-  
+
   /* ==========================================================================
      Helper classes
      ========================================================================== */
-  
+
   /*
    * Hide visually and from screen readers
    */
-  
+
   .hidden {
     display: none !important;
   }
-  
+
   /*
   * Hide only visually, but have it available for screen readers:
   * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
@@ -362,7 +383,7 @@
   *    causes content to wrap 1 word per line:
   *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
   */
-  
+
   .sr-only {
     border: 0;
     clip: rect(0, 0, 0, 0);
@@ -375,13 +396,13 @@
     width: 1px;
     /* 1 */
   }
-  
+
   /*
   * Extends the .sr-only class to allow the element
   * to be focusable when navigated to via the keyboard:
   * https://www.drupal.org/node/897638
   */
-  
+
   .sr-only.focusable:active,
   .sr-only.focusable:focus {
     clip: auto;
@@ -392,15 +413,15 @@
     white-space: inherit;
     width: auto;
   }
-  
+
   /*
   * Hide visually and from screen readers, but maintain layout
   */
-  
+
   .invisible {
     visibility: hidden;
   }
-  
+
   /*
   * Clearfix: contain floats
   *
@@ -412,7 +433,7 @@
   * 2. The use of `table` rather than `block` is only necessary if using
   *    `:before` to contain the top-margins of child elements.
   */
-  
+
   .clearfix:before,
   .clearfix:after {
     content: " ";
@@ -420,34 +441,78 @@
     display: table;
     /* 2 */
   }
-  
+
   .clearfix:after {
     clear: both;
   }
-  
+
   /* ==========================================================================
      EXAMPLE Media Queries for Responsive Design.
      These examples override the primary ('mobile first') styles.
      Modify as content requires.
      ========================================================================== */
-  
-  @media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-  }
-  
+
+     /* On screens that are 1000px wide or less */
+     @media screen and (max-width: 1000px) {
+       nav {
+         width: 80%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+       }
+
+       .navbar a {
+         color: #FFFFFF;
+         margin: 6px;
+         text-align: center;
+         text-decoration: none;
+         margin: 0px 30px 0px 30px;
+       }
+
+       .Herotext {
+         font-size: 20px;
+       }
+     }
+
+     /* On screens that are 900px wide or less */
+     @media screen and (max-width: 900px) {
+
+     }
+
+     /* On screens that are 768px wide or less */
+     @media screen and (max-width: 768px) {
+
+     }
+
+     /* On screens that are 550px wide or less */
+     @media screen and (max-width: 550px) {
+
+     }
+
+     /* On screens that are 450px wide or less */
+     @media screen and (max-width: 450px) {
+
+     }
+
+     /* On screens that are 300px wide or less */
+     @media screen and (max-width: 300px) {
+
+     }
+
+
   @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 1.25dppx),
   (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
   }
-  
+
   /* ==========================================================================
      Print styles.
      Inlined to avoid the additional HTTP request:
      https://www.phpied.com/delay-loading-your-print-css/
      ========================================================================== */
-  
+
   @media print {
     *,
     *:before,
@@ -506,4 +571,115 @@
     h3 {
       page-break-after: avoid;
     }
+  }
+
+
+  /* On screens that are 1060px wide or less */
+  @media screen and (max-width: 1060px) {
+
+    .Herotext {
+      font-size: 36px;
+    }
+
+  .fan {
+    margin: 0px 10px 0px 10px;
+    width: 70%;
+  }
+    }
+  /* On screens that are 900px wide or less */
+  @media screen and (max-width: 900px) {
+    header {
+      font-size: 24px;
+    }
+    .navbar a {
+      margin: 0px 20px 0px 20px;
+    }
+    .Herotext {
+      font-size: 36px;
+    }
+    .fan {
+      margin: 0px 25px 0px 25px;
+      width: 70%;
+    }
+
+    .row_of_fans {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+    .alignfans{
+      width: 60%;
+      margin: 5%;
+    }
+  }
+  /* On screens that are 800px wide or less */
+  @media screen and (max-width: 800px) {
+    .text-block {
+      width: 45%;
+      }
+    }
+
+  /* On screens that are 768px wide or less */
+  @media screen and (max-width: 768px) {
+    header {
+      font-size: 20px;
+    }
+    .navbar a {
+      margin: 0px 15px 0px 15px;
+    }
+    .Herotext {
+      font-size: 30px;
+    }
+    .About {
+      font-size: 18px;
+    }
+    .TourDates {
+      font-size: 18px;
+    }
+    .FanTalk {
+      font-size: 18px;
+    }
+    .alignfans{
+      width: 50%;
+      margin: 2%;
+    }
+}
+
+/* On screens that are 620px wide or less */
+@media screen and (max-width: 620px) {
+  header {
+    font-size: 18px;
+  }
+  .navbar a {
+    margin: 0px 10px 0px 10px;
+  }
+  .Herotext {
+    font-size: 30px;
+  }
+  .alignfans{
+    width: 70%;
+    margin: 5%;
+  }
+}
+
+/* On screens that are 600px wide or less */
+@media screen and (max-width: 600px) {
+  .text-block {
+    width: 55%;
+}
+
+}
+  /* On screens that are 550px wide or less */
+  @media screen and (max-width: 550px) {
+
+  }
+
+  /* On screens that are 450px wide or less */
+  @media screen and (max-width: 450px) {
+
+  }
+
+  /* On screens that are 300px wide or less */
+  @media screen and (max-width: 300px) {
+
   }
