@@ -99,9 +99,11 @@
      Author's custom styles
      ========================================================================== */
 
-  Body {
+
+  body {
     font-family: 'Playfair Display', serif;
     overflow-x: hidden;
+    background-color: #B0E5FF;
   }
 
   /* Begin Nav Styles*/
@@ -147,7 +149,6 @@
 
   /* Begin Hero Section*/
 
-  element.style {}
 
   .Hero {
     height: 75vh;
@@ -203,6 +204,7 @@
     text-align: left;
     align-items: left;
     padding: 10px;
+    margin: 5px;
   }
 
   .sectionbox_location {
@@ -210,6 +212,15 @@
     text-align: left;
     align-items: left;
     padding: 10px;
+    margin: 5px;
+  }
+
+  .centerme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: row;
   }
 
   .check_back {
@@ -232,11 +243,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
   }
 
-  .leftnudge {
-    margin-left: 15px;
-  }
 
   /* End Tour Dates Section*/
 
@@ -267,6 +276,7 @@
   .alignfans {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     flex-direction: row;
     width: 100%;
   }
@@ -444,9 +454,54 @@ footer{
      Modify as content requires.
      ========================================================================== */
 
-  @media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-  }
+
+     /* On screens that are 1000px wide or less */
+     @media screen and (max-width: 1000px) {
+       nav {
+         width: 80%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+       }
+
+       .navbar a {
+         color: #FFFFFF;
+         margin: 6px;
+         text-align: center;
+         text-decoration: none;
+         margin: 0px 30px 0px 30px;
+       }
+
+       .Herotext {
+         font-size: 20px;
+       }
+     }
+
+     /* On screens that are 900px wide or less */
+     @media screen and (max-width: 900px) {
+
+     }
+
+     /* On screens that are 768px wide or less */
+     @media screen and (max-width: 768px) {
+
+     }
+
+     /* On screens that are 550px wide or less */
+     @media screen and (max-width: 550px) {
+
+     }
+
+     /* On screens that are 450px wide or less */
+     @media screen and (max-width: 450px) {
+
+     }
+
+     /* On screens that are 300px wide or less */
+     @media screen and (max-width: 300px) {
+
+     }
+
 
   @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
