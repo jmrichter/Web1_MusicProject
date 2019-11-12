@@ -663,17 +663,12 @@ footer{
     width: 70%;
     margin: 5%;
   }
-}
-
-/* On screens that are 600px wide or less */
-@media screen and (max-width: 600px) {
   .text-block {
     width: 55%;
+  }
 }
-
-}
-  /* On screens that are 550px wide or less */
-  @media screen and (max-width: 550px) {
+  /* On screens that are 530px wide or less */
+  @media screen and (max-width: 530px) {
 
   }
 
