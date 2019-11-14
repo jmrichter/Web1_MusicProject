@@ -193,34 +193,17 @@
     padding: 10px;
     color: white;
     background-image: url(../img/Testimonials.png);
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
   }
 
-  .sectionbox_tourdates {
-    justify-content: right;
-    text-align: left;
-    align-items: left;
-    padding: 10px;
-    margin: 5px;
-  }
 
-  .sectionbox_location {
-    justify-content: left;
+  table, th, td {
     text-align: left;
-    align-items: left;
     padding: 10px;
-    margin: 5px;
-  }
-
-  .centerme{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    flex-direction: row;
+    background-color: #0C71AA;
+    border-radius: 2em;
   }
 
   .check_back {
@@ -455,40 +438,105 @@ footer{
      ========================================================================== */
 
 
-     /* On screens that are 1000px wide or less */
-     @media screen and (max-width: 1000px) {
-       nav {
-         width: 80%;
-         display: flex;
-         justify-content: center;
-         align-items: center;
-       }
-
-       .navbar a {
-         color: #FFFFFF;
-         margin: 6px;
-         text-align: center;
-         text-decoration: none;
-         margin: 0px 30px 0px 30px;
-       }
+     /* On screens that are 1060px wide or less */
+     @media screen and (max-width: 1060px) {
 
        .Herotext {
-         font-size: 20px;
+         font-size: 36px;
        }
-     }
 
+     .fan {
+       margin: 0px 10px 0px 10px;
+       width: 70%;
+     }
+       }
      /* On screens that are 900px wide or less */
      @media screen and (max-width: 900px) {
+       header {
+         font-size: 24px;
+       }
+       .navbar a {
+         margin: 0px 20px 0px 20px;
+       }
+       .Herotext {
+         font-size: 36px;
+       }
+       .fan {
+         margin: 0px 25px 0px 25px;
+         width: 70%;
+       }
 
+       .row_of_fans {
+           flex-wrap: wrap;
+           justify-content: center;
+         }
+
+       .alignfans{
+         width: 60%;
+         margin: 5%;
+       }
      }
+     /* On screens that are 800px wide or less */
+     @media screen and (max-width: 800px) {
+       .text-block {
+         width: 45%;
+         }
+       }
 
      /* On screens that are 768px wide or less */
      @media screen and (max-width: 768px) {
+       header {
+         font-size: 20px;
+       }
+       .navbar a {
+         margin: 0px 15px 0px 15px;
+       }
+       .Herotext {
+         font-size: 30px;
+       }
+       .About {
+         font-size: 18px;
+       }
+       .TourDates {
+         font-size: 18px;
+       }
+       .FanTalk {
+         font-size: 18px;
+       }
+       .alignfans{
+         width: 50%;
+         margin: 2%;
+       }
+   }
 
+   /* On screens that are 650px wide or less */
+   @media screen and (max-width: 650px) {
+
+
+
+
+   }
+   /* On screens that are 620px wide or less */
+   @media screen and (max-width: 620px) {
+     header {
+       font-size: 18px;
      }
-
-     /* On screens that are 550px wide or less */
-     @media screen and (max-width: 550px) {
+     .navbar a {
+       margin: 0px 10px 0px 10px;
+     }
+     .Herotext {
+       font-size: 30px;
+     }
+     .alignfans{
+       width: 70%;
+       margin: 5%;
+     }
+     .text-block {
+       width: 55%;
+     }
+   }
+     /* On screens that are 530px wide or less */
+     @media screen and (max-width: 530px) {
 
      }
 
@@ -502,13 +550,6 @@ footer{
 
      }
 
-
-  @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
-  }
 
   /* ==========================================================================
      Print styles.
@@ -648,6 +689,13 @@ footer{
     }
 }
 
+/* On screens that are 650px wide or less */
+@media screen and (max-width: 650px) {
+
+
+
+
+}
 /* On screens that are 620px wide or less */
 @media screen and (max-width: 620px) {
   header {
