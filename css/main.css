@@ -143,6 +143,7 @@
 
   .Herotext {
     font-size: 64px;
+    color: #FFFFFF;
   }
 
   /*End Nav Styles*/
@@ -231,6 +232,58 @@
 
 
   /* End Tour Dates Section*/
+
+  /* Side Menu */
+
+  .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #0C71AA;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+.mobilemenu{
+  display: none;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* Side menu End */
 
   /* Begin Fan Talk Section*/
 
@@ -512,6 +565,18 @@ footer{
    /* On screens that are 650px wide or less */
    @media screen and (max-width: 650px) {
 
+     nav a{
+       display: none;
+     }
+
+     .mobilemenu {
+       display: inline;
+       position: relative;
+       top: 0px;
+       left: 200px;
+       color: #fff;
+   }
+
 
 
 
@@ -534,14 +599,38 @@ footer{
      .text-block {
        width: 55%;
      }
+     .mobilemenu {
+       display: inline;
+       position: relative;
+       top: 0px;
+       left: 150px;
+       color: #fff;
    }
-     /* On screens that are 530px wide or less */
-     @media screen and (max-width: 530px) {
-
+   }
+     /* On screens that are 540px wide or less */
+     @media screen and (max-width: 540px) {
+       .mobilemenu {
+         display: inline;
+         position: relative;
+         top: 0px;
+         left: 100px;
+         color: #fff;
+     }
      }
 
      /* On screens that are 450px wide or less */
      @media screen and (max-width: 450px) {
+       .mobilemenu {
+         display: inline;
+         position: relative;
+         top: 0px;
+         left: 50px;
+         color: #fff;
+     }
+     .alignfans{
+       width: 95%;
+       margin: 5%;
+     }
 
      }
 
@@ -722,7 +811,10 @@ footer{
 
   /* On screens that are 450px wide or less */
   @media screen and (max-width: 450px) {
-
+    .alignfans{
+      width: 95%;
+      margin: 5%;
+    }
   }
 
   /* On screens that are 300px wide or less */
